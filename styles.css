@@ -1,2 +1,15 @@
-body {font-weight: 800;
-    color: blueviolet;}
+body {
+  font-weight: 800;
+  color: blueviolet;
+}
+label:first-of-type {
+  color: red;
+}
+
+label:nth-of-type(2) {
+  color: green;
+}
+
+label:last-of-type {
+  color: blue;
+}
